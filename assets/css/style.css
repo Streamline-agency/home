@@ -476,7 +476,7 @@ header .container {
 .input-wrapper { margin-bottom: 30px; }
 
 .input-label {
-  color: var(--oxford-blue);
+  color: var(--platinum);
   font-size: var(--fs-6);
   font-weight: var(--fw-600);
   margin-bottom: 10px;
@@ -486,6 +486,7 @@ header .container {
   border-bottom: 1px solid var(--platinum);
   padding: 7px 0;
   font-size: var(--fs-6);
+  color: var(--platinum);
 }
 
 .input-field::placeholder { color: var(--silver-chalice); }
