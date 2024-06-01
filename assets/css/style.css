@@ -200,6 +200,9 @@ header .container {
   font-size: 30px;
   padding: 5px;
 }
+.menu-btn{
+  color: var(--french-rose);
+}
 
 .navbar {
   position: absolute;
