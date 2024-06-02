@@ -341,7 +341,14 @@ header .container {
 
 .about-card .card-title { margin-bottom: 15px; }
 
-.about-card .card-text { color: var(--davys-gray); }
+.about-card .card-text {
+  text-align: left; 
+  color: var(--davys-gray);
+ }
+ .about-card .card-text > ul li{
+  
+  color: var(--davys-gray);
+ }
 
 .about-bottom-banner { margin-bottom: 120px; }
 
