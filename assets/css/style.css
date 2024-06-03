@@ -626,15 +626,29 @@ footer .logo {
 /**
 *responsive for smaller than 450px
 **/
-@media (max-width: 450px){
+@media(min-width:320px){
 
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+  }
+  .title-box{
+    height: 90px;
+    width:100%;
+    margin-bottom:10px;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 12px 10px 24px;
+    border-radius: 16px 100px 100px 16px;
+    text-transform: uppercase;
+  }
 
-  /**
-  *CUSTOM STYLES
-  */  
-
-  
 }
+
+
 
 
 
